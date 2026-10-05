@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ôn Thi Mô Phỏng Giao Thông | 30 Tình Huống, 3 Đề</title>
+    <meta name="description" content="Luyện 30 tình huống mô phỏng giao thông đô thị với 3 đề thi thử. Chọn đáp án, xem kết quả và ôn dấu hiệu nguy hiểm cùng cách xử lý an toàn.">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#2563eb">
+    <link rel="canonical" href="https://mo-phong-giao-thong.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:site_name" content="Ôn Thi Mô Phỏng Giao Thông">
+    <meta property="og:url" content="https://mo-phong-giao-thong.github.io/">
+    <meta property="og:title" content="Ôn Thi Mô Phỏng Giao Thông | 30 Tình Huống, 3 Đề">
+    <meta property="og:description" content="Luyện 30 tình huống mô phỏng giao thông đô thị với 3 đề thi thử. Chọn đáp án, xem kết quả và ôn dấu hiệu nguy hiểm cùng cách xử lý an toàn.">
+    <meta name="twitter:card" content="summary">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Ôn Thi Mô Phỏng Giao Thông",
+        "url": "https://mo-phong-giao-thong.github.io/",
+        "description": "Ứng dụng miễn phí để ôn tập và thi thử 30 tình huống mô phỏng giao thông đô thị qua 3 đề, với câu hỏi và gợi ý xử lý bằng tiếng Việt.",
+        "inLanguage": "vi",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Any",
+        "isAccessibleForFree": true,
+        "featureList": [
+            "Ôn tập tình huống giao thông đô thị",
+            "Làm 3 đề thi thử",
+            "Xem kết quả và gợi ý xử lý"
+        ]
+    }
+    </script>
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header class="header">
+
+            <div class="brand">
+                <div class="brand-icon">🚗</div>
+
+                <div>
+                    <h1>Ôn thi mô phỏng giao thông</h1>
+                    <span>Thi thử tình huống giao thông</span>
+                </div>
+            </div>
+
+            <div class="header-right">
+
+                <div class="exam-info">
+                    <span>Đề số</span>
+                    <strong id="examNumber">01</strong>
+                </div>
+
+                <div class="progress-info">
+                    <span>Tiến độ</span>
+
+                    <strong>
+                        <span id="answeredCount">0</span>
+                        /
+                        <span id="totalSituations">0</span>
+                    </strong>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- MODE -->
+        <div class="mode-bar">
+
+        <div class="mode-switch">
+
+            <button
+                id="examModeBtn"
+                class="mode-btn active"
+                type="button"
+                onclick="setMode('exam')"
+            >
+                Thi thử
+            </button>
+
+            <button
+                id="studyModeBtn"
+                class="mode-btn"
+                type="button"
+                onclick="setMode('study')"
+            >
+                Ôn tập
+            </button>
+
+        </div>
+
+    </div>
+
+
+        <!-- MAIN -->
+        <main class="main">
+
+            <!-- LEFT -->
+            <section class="content">
+
+                <!-- VIDEO -->
+                <div class="video-card">
+
+                    <div class="video-header">
+
+                        <div>
+                            <span id="situationCategory" class="label">Tình huống</span>
+
+                            <h2 id="situationTitle">
+                                Đang tải...
+                            </h2>
+                        </div>
+
+                        <div class="situation-number">
+                            <span id="currentSituationNumber">01</span>
+                            /
+                            <span id="totalSituationNumber">15</span>
+                        </div>
+
+                    </div>
+
+                    <div class="video-container">
+
+                        <video id="situationVideo" controls preload="metadata">
+                            Trình duyệt của bạn không hỗ trợ video.
+                        </video>
+
+                        <div id="videoPlaceholder" class="video-placeholder">
+                            <div class="play-icon">▶</div>
+                            <span>Video tình huống</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUESTIONS -->
+                <div class="questions-card">
+
+                    <div class="section-title">
+
+                        <div>
+                            <span class="label">Trả lời câu hỏi</span>
+                            <h2>Chọn đáp án đúng</h2>
+                        </div>
+
+                        <span id="questionProgress" class="question-progress">
+                            0/4
+                        </span>
+
+                    </div>
+
+                    <div id="questions"></div>
+
+                </div>
+
+
+                <!-- STUDY SUPPORT -->
+                <div id="supportCard" class="support-card">
+
+                    <div class="support-header">
+
+                        <div class="support-icon">
+                            ?
+                        </div>
+
+                        <div>
+                            <span class="label">Ôn tập</span>
+                            <h2>Hỗ trợ học viên</h2>
+                        </div>
+
+                    </div>
+
+
+                    <div class="support-content">
+
+                        <div class="support-item">
+
+                            <div class="support-label">
+                                Dấu hiệu nhận biết gián tiếp
+                            </div>
+
+                            <p id="supportIndirect"></p>
+
+                        </div>
+
+
+                        <div class="support-item">
+
+                            <div class="support-label">
+                                Dấu hiệu nhận biết trực tiếp
+                            </div>
+
+                            <p id="supportDirect"></p>
+
+                        </div>
+
+
+                        <div class="support-item">
+
+                            <div class="support-label">
+                                Gợi ý phương án xử lý
+                            </div>
+
+                            <p id="supportHandling"></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NAVIGATION -->
+                <div class="navigation">
+
+                    <button id="prevBtn" class="nav-btn secondary" type="button" onclick="previousSituation()">
+                        ← Tình huống trước
+                    </button>
+
+                    <button id="nextBtn" class="nav-btn primary" type="button" onclick="nextSituation()">
+                        Tình huống tiếp theo →
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+
+                <!-- EXAM LIST -->
+                <div class="sidebar-card">
+
+                    <div class="sidebar-title">
+                        <h3>Danh sách đề</h3>
+
+                        <span>
+                            Tình huống trong đề
+                        </span>
+                    </div>
+
+                    <div id="examList" class="exam-list"></div>
+
+                </div>
+
+
+                <!-- SITUATION LIST -->
+                <div class="sidebar-card situation-card">
+
+                    <div class="sidebar-title">
+
+                        <h3>Danh sách tình huống</h3>
+
+                        <span>
+                            <span id="sidebarAnswered">0</span>
+                            /
+                            <span id="sidebarTotal">0</span>
+                        </span>
+
+                    </div>
+
+
+                    <!-- LEGEND -->
+                    <div class="legend">
+
+                        <div class="legend-item">
+                            <span class="legend-dot current"></span>
+                            Đang làm
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot answered"></span>
+                            Đã trả lời
+                        </div>
+
+                        <div class="legend-item">
+                            <span class="legend-dot unanswered"></span>
+                            Chưa trả lời
+                        </div>
+
+                    </div>
+
+
+                    <div id="situationList" class="situation-list"></div>
+
+                </div>
+
+
+                <!-- SUBMIT -->
+                <button id="submitBtn" class="submit-btn" type="button" onclick="submitExam()">
+                    Nộp bài
+                </button>
+
+            </aside>
+
+        </main>
+
+        <section class="seo-content" aria-labelledby="seo-title">
+            <h2 id="seo-title">Ôn tập kiểm tra tốt nghiệp mô phỏng lái xe 2026</h2>
+            <p>
+                Nội dung kiểm tra mô phỏng giúp học viên luyện khả năng nhận diện nguy cơ và lựa chọn
+                cách ứng phó an toàn khi tham gia giao thông. Theo thông tin về Thông tư số
+                17/2026/TT-BXD, hình thức kiểm tra mới áp dụng từ ngày 01/07/2026
+                gồm các câu hỏi mô phỏng tình huống giao thông. Học viên nên đối chiếu hướng dẫn của
+                cơ sở đào tạo và văn bản chính thức để biết yêu cầu áp dụng cho khóa học của mình.
+            </p>
+            <h3>Cấu trúc bài kiểm tra mô phỏng mới</h3>
+            <ol>
+                <li>Mỗi đề có 10 tình huống; mỗi tình huống có mức điểm tối đa 1 điểm.</li>
+                <li>Nhận diện tên tình huống đúng được 0,25 điểm.</li>
+                <li>Chọn đúng dấu hiệu gián tiếp được 0,25 điểm.</li>
+                <li>Chọn đúng dấu hiệu trực tiếp được 0,25 điểm.</li>
+                <li>Chọn đúng phương án xử lý được 0,25 điểm.</li>
+            </ol>
+            <p>
+                Cách chia điểm theo từng phần giúp người học biết mình đã nhận ra được gì và cần ôn
+                thêm ở bước nào: gọi đúng tên tình huống, phát hiện dấu hiệu nguy hiểm hay chọn cách
+                xử lý phù hợp.
+            </p>
+            <h3>Luyện thi trắc nghiệm trên trang</h3>
+            <p>
+                Website hiện có 30 tình huống giao thông đô thị, được chia thành 3 đề thi thử, mỗi đề
+                gồm 10 tình huống. Mỗi tình huống có bốn câu hỏi về tên gọi, dấu hiệu nhận biết gián
+                tiếp, dấu hiệu nhận biết trực tiếp và cách xử lý. Chọn <strong>Ôn tập</strong> để xem
+                gợi ý; chọn <strong>Thi thử</strong> để tự trả lời, nộp bài và xem điểm cùng đáp án.
+            </p>
+            <h3>Lưu ý trước khi thi tốt nghiệp</h3>
+            <p>
+                Trong thời gian chuyển đổi, cơ sở đào tạo có thể hướng dẫn hình thức thi khác nhau.
+                Công cụ trên trang này phục vụ luyện tập dạng trắc nghiệm bốn câu cho mỗi tình huống;
+                không có chế độ chấm điểm bằng phím SPACE. Hãy hỏi trung tâm đào tạo để xác nhận hình
+                thức thi đang áp dụng cho khóa và hạng giấy phép lái xe của bạn. Nội dung trên website
+                nhằm hỗ trợ ôn tập, không thay thế văn bản pháp luật hoặc hướng dẫn chính thức. Xem thêm
+                <a href="huong-dan.html">hướng dẫn sử dụng</a> và
+                <a href="quy-dinh-2026.html">nguồn quy định năm 2026</a>.
+            </p>
+        </section>
+
+        <footer class="site-footer">
+            <div class="site-footer-inner">
+                <p>Website hỗ trợ ôn tập; không phải hệ thống sát hạch chính thức.</p>
+                <nav aria-label="Liên kết thông tin">
+                    <a href="huong-dan.html">Hướng dẫn</a>
+                    <a href="quy-dinh-2026.html">Quy định 2026</a>
+                    <a href="gioi-thieu.html">Giới thiệu</a>
+                    <a href="chinh-sach-bao-mat.html">Quyền riêng tư</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <!-- RESULT MODAL -->
+    <div id="resultModal" class="modal hidden">
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-box">
+
+            <button class="modal-close" type="button" onclick="closeResult()">
+                ×
+            </button>
+
+            <div class="result-icon">
+                ✓
+            </div>
+
+            <h2>Kết quả bài thi</h2>
+
+            <div class="score">
+                <strong id="resultScore">0.00</strong>
+                <span>/ 10 điểm</span>
+            </div>
+
+            <div id="resultStatus" class="result-status">
+                -
+            </div>
+
+            <div class="result-detail">
+
+                <div>
+                    <span>Số câu đúng</span>
+                    <strong id="resultCorrect">0</strong>
+                </div>
+
+                <div>
+                    <span>Tổng số câu</span>
+                    <strong id="resultTotal">0</strong>
+                </div>
+
+                <div>
+                    <span>Tình huống hoàn thành</span>
+                    <strong id="resultSituations">0</strong>
+                </div>
+
+            </div>
+
+            <div class="result-actions">
+                <button class="modal-btn" type="button" onclick="retakeExam()">
+                    Làm bài lại
+                </button>
+
+                <button class="modal-btn secondary" type="button" onclick="closeResult()">
+                    Xem lại bài
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- SUBMIT CONFIRM MODAL -->
+    <div id="submitModal" class="modal hidden">
+        <div class="modal-overlay" onclick="closeSubmitModal()"></div>
+        <div class="modal-box submit-confirm-box">
+            <div class="confirm-icon"> ? </div>
+            <h2>Xác nhận nộp bài</h2>
+            <p id="submitMessage" class="confirm-message"></p>
+            <p id="submitUnanswered" class="confirm-unanswered"></p>
+            <div class="confirm-actions"> <button type="button" class="confirm-btn cancel" onclick="closeSubmitModal()">
+                    Tiếp tục làm bài </button> <button type="button" class="confirm-btn submit"
+                    onclick="confirmSubmit()"> Nộp bài </button> </div>
+        </div>
+    </div>
+
+    <button
+        class="back-to-top"
+        type="button"
+        hidden
+        aria-label="Cuộn lên đầu trang"
+        title="Lên đầu trang"
+        onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+    >
+        ↑
+    </button>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

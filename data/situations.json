@@ -1,0 +1,1612 @@
+{
+    "exams": [
+        {
+            "id": 1,
+            "title": "Đề thi số 1",
+            "situations": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+            "id": 2,
+            "title": "Đề thi số 2",
+            "situations": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+        },
+        {
+            "id": 3,
+            "title": "Đề thi số 3",
+            "situations": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        }
+    ],
+    "situations": [
+        {
+            "id": 1,
+            "title": "Người đi bộ sau xe tải",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/01.mp4",
+            "support": {
+                "indirect": "Xe tải lớn phía trước che khuất hoàn toàn tầm nhìn bên phải.",
+                "direct": "Người đi bộ bất ngờ bước ra từ sau xe tải.",
+                "handling": "Chủ động rà phanh trước khi vượt qua điểm khuất, hạ tốc độ sâu, giữ khoảng cách an toàn và ưu tiên nhường đường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ sau xe tải",
+                        "Xe tải vượt xe máy",
+                        "Xe tải phanh gấp",
+                        "Xe con đi từ đường nhánh"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải lớn phía trước che khuất hoàn toàn tầm nhìn bên phải",
+                        "Xe tải bật đèn cảnh báo nguy hiểm",
+                        "Có xe máy đi sát bên phải",
+                        "Đường phía trước hoàn toàn thông thoáng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Người đi bộ bất ngờ bước ra từ sau xe tải",
+                        "Xe tải bắt đầu chuyển làn",
+                        "Xe máy vượt lên phía trước",
+                        "Xe phía trước tăng tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Chủ động rà phanh, hạ tốc độ và ưu tiên nhường đường",
+                        "Tăng tốc để vượt nhanh qua xe tải",
+                        "Bấm còi liên tục và giữ nguyên tốc độ",
+                        "Đi sát xe tải để tránh người đi bộ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Người đi bộ qua dải phân cách",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/02.mp4",
+            "support": {
+                "indirect": "Khu vực có dải phân cách, thường có người băng qua không đúng nơi.",
+                "direct": "Người đi bộ bước xuống phần đường xe chạy.",
+                "handling": "Giảm tốc từ sớm, quan sát hướng di chuyển của người đi bộ và dừng lại nếu họ tiếp tục sang đường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ qua dải phân cách",
+                        "Người đi bộ sau xe tải",
+                        "Xe máy chuyển làn",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Khu vực có dải phân cách, thường có người băng qua không đúng nơi",
+                        "Có xe tải đang đỗ",
+                        "Có đèn giao thông phía trước",
+                        "Đường không có người đi bộ"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Người đi bộ bước xuống phần đường xe chạy",
+                        "Xe phía trước tăng tốc",
+                        "Xe máy bật xi nhan",
+                        "Xe buýt rời điểm dừng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và dừng lại nếu người đi bộ tiếp tục sang đường",
+                        "Tăng tốc để vượt qua trước",
+                        "Bấm còi liên tục",
+                        "Đi sát dải phân cách"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Xe buýt dừng phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/03.mp4",
+            "support": {
+                "indirect": "Xe buýt đang dừng tại điểm đón trả khách.",
+                "direct": "Xe phía trước phanh lại hoặc người có thể bước ra từ đầu xe buýt.",
+                "handling": "Giữ khoảng cách rộng hơn bình thường, giảm tốc và quan sát hai bên đầu xe buýt để phòng người đi bộ."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe buýt dừng phía trước",
+                        "Xe buýt vượt",
+                        "Xe tải phanh gấp",
+                        "Xe con rẽ trái"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe buýt đang dừng tại điểm đón trả khách",
+                        "Xe buýt đang chạy tốc độ cao",
+                        "Xe buýt bật đèn pha",
+                        "Đường phía trước không có xe"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe phía trước phanh lại hoặc người có thể bước ra từ đầu xe buýt",
+                        "Xe buýt tăng tốc",
+                        "Xe máy vượt bên trái",
+                        "Xe phía sau bật đèn pha"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, giữ khoảng cách và quan sát hai bên đầu xe buýt",
+                        "Tăng tốc vượt xe buýt",
+                        "Đi sát xe buýt",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Xe con từ đường nhánh đi ra",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/04.mp4",
+            "support": {
+                "indirect": "Xuất hiện giao lộ hoặc đường nhánh nhỏ bên phải.",
+                "direct": "Đầu xe con nhô ra, có xu hướng nhập vào đường chính.",
+                "handling": "Nhả ga sớm, rà phanh nhẹ và sẵn sàng dừng nếu xe kia tiếp tục tiến ra."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con từ đường nhánh đi ra",
+                        "Xe con rẽ trái",
+                        "Xe máy chuyển làn",
+                        "Xe tải lấn làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xuất hiện giao lộ hoặc đường nhánh nhỏ bên phải",
+                        "Có xe buýt phía trước",
+                        "Có người đi bộ trên vỉa hè",
+                        "Đường đang vào cao tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Đầu xe con nhô ra, có xu hướng nhập vào đường chính",
+                        "Xe con bật đèn pha",
+                        "Xe con dừng hẳn",
+                        "Xe con quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Nhả ga, rà phanh và sẵn sàng dừng",
+                        "Tăng tốc vượt qua",
+                        "Đi sát mép phải",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Xe máy chuyển làn",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/05.mp4",
+            "support": {
+                "indirect": "Xe máy đi sát vạch phân làn, không giữ hướng ổn định.",
+                "direct": "Xe máy bất ngờ đánh lái sang làn của bạn.",
+                "handling": "Chủ động giảm tốc, giữ khoảng cách lệch sang phía an toàn để tránh va chạm."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe máy chuyển làn",
+                        "Xe máy vượt",
+                        "Xe máy quay đầu",
+                        "Xe máy dừng bên đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe máy đi sát vạch phân làn, không giữ hướng ổn định",
+                        "Xe máy đang dừng",
+                        "Xe máy bật đèn cảnh báo",
+                        "Xe máy đi sát lề phải ổn định"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe máy bất ngờ đánh lái sang làn của bạn",
+                        "Xe máy giảm tốc",
+                        "Xe máy bật đèn pha",
+                        "Xe máy dừng lại"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và giữ khoảng cách lệch sang phía an toàn",
+                        "Tăng tốc vượt xe máy",
+                        "Đi sát xe máy",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Xe buýt vượt",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/06.mp4",
+            "support": {
+                "indirect": "Xe buýt phía sau tăng tốc, áp sát.",
+                "direct": "Xe buýt lấn sang làn của bạn để vượt.",
+                "handling": "Giảm tốc nhẹ để tạo khoảng trống, giữ hướng lái ổn định và quan sát gương."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe buýt vượt",
+                        "Xe buýt dừng",
+                        "Xe tải vượt",
+                        "Xe con vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe buýt phía sau tăng tốc, áp sát",
+                        "Xe buýt đang đỗ",
+                        "Xe buýt bật đèn cảnh báo",
+                        "Xe buýt đi ngược chiều"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe buýt lấn sang làn của bạn để vượt",
+                        "Xe buýt dừng lại",
+                        "Xe buýt giảm tốc",
+                        "Xe buýt bật đèn pha"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc nhẹ, tạo khoảng trống và giữ hướng lái ổn định",
+                        "Tăng tốc để ngăn xe buýt vượt",
+                        "Đánh lái sang trái",
+                        "Phanh gấp ngay lập tức"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Người đi bộ phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/07.mp4",
+            "support": {
+                "indirect": "Khu vực đông dân cư, gần vạch qua đường.",
+                "direct": "Xe phía trước phanh lại hoặc có người chuẩn bị sang đường.",
+                "handling": "Hạ tốc độ, giữ khoảng cách và chuẩn bị dừng hẳn nếu người đi bộ bước ra."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ phía trước",
+                        "Người đi bộ sau xe tải",
+                        "Người đi bộ qua dải phân cách",
+                        "Xe máy chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Khu vực đông dân cư, gần vạch qua đường",
+                        "Đường cao tốc",
+                        "Đường không có người",
+                        "Có xe tải phía sau"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe phía trước phanh lại hoặc có người chuẩn bị sang đường",
+                        "Xe phía trước tăng tốc",
+                        "Xe buýt rời điểm dừng",
+                        "Xe máy chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Hạ tốc độ, giữ khoảng cách và chuẩn bị dừng",
+                        "Tăng tốc vượt xe phía trước",
+                        "Bấm còi liên tục",
+                        "Đi sát người đi bộ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Xe đạp từ đường nhánh",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/08.mp4",
+            "support": {
+                "indirect": "Có lối nhỏ hoặc ngõ khuất bên đường.",
+                "direct": "Xe đạp bất ngờ lao ra từ bên hông.",
+                "handling": "Quan sát hai bên liên tục, giảm tốc sâu và giữ khoảng cách phòng va chạm ngang."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe đạp từ đường nhánh",
+                        "Xe đạp sang đường",
+                        "Xe máy từ đường nhánh",
+                        "Xe con từ đường nhánh"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có lối nhỏ hoặc ngõ khuất bên đường",
+                        "Có dải phân cách giữa đường",
+                        "Có xe buýt đang dừng",
+                        "Đường hoàn toàn thẳng và thoáng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đạp bất ngờ lao ra từ bên hông",
+                        "Xe đạp dừng bên đường",
+                        "Xe đạp quay đầu",
+                        "Xe đạp tăng tốc phía trước"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Quan sát hai bên, giảm tốc sâu và giữ khoảng cách",
+                        "Tăng tốc vượt qua",
+                        "Bấm còi liên tục",
+                        "Đi sát xe đạp"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Xe con vượt phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/09.mp4",
+            "support": {
+                "indirect": "Xe phía trước chạy không ổn định, có xu hướng tăng tốc.",
+                "direct": "Xe đó lấn sang làn đối diện để vượt.",
+                "handling": "Không tăng tốc theo, giảm ga và giữ khoảng cách để tránh tình huống dồn xe."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con vượt phía trước",
+                        "Xe con rẽ trái",
+                        "Xe con từ đường nhánh",
+                        "Xe con phanh gấp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe phía trước chạy không ổn định, có xu hướng tăng tốc",
+                        "Xe phía trước dừng hẳn",
+                        "Xe phía trước bật đèn cảnh báo",
+                        "Xe phía trước đi sát lề"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đó lấn sang làn đối diện để vượt",
+                        "Xe đó giảm tốc",
+                        "Xe đó dừng bên đường",
+                        "Xe đó quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Không tăng tốc theo, giảm ga và giữ khoảng cách",
+                        "Tăng tốc vượt theo",
+                        "Đi sát xe đó",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Xe con bên trái đi ra",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/10.mp4",
+            "support": {
+                "indirect": "Có giao cắt bên trái nhưng tầm nhìn hạn chế.",
+                "direct": "Xe con tiến ra và có thể cắt ngang đầu xe bạn.",
+                "handling": "Giảm tốc chủ động, giữ chân phanh và sẵn sàng dừng nếu xe kia không nhường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con bên trái đi ra",
+                        "Xe con bên phải đi ra",
+                        "Xe con rẽ trái",
+                        "Xe con vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có giao cắt bên trái nhưng tầm nhìn hạn chế",
+                        "Có xe buýt đang dừng",
+                        "Có dải phân cách",
+                        "Đường phía trước không có giao cắt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe con tiến ra và có thể cắt ngang đầu xe bạn",
+                        "Xe con dừng hẳn",
+                        "Xe con bật đèn pha",
+                        "Xe con đi ngược chiều"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, giữ chân phanh và sẵn sàng dừng",
+                        "Tăng tốc qua giao lộ",
+                        "Đánh lái sang trái",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Xe bê tông lấn làn",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/11.mp4",
+            "support": {
+                "indirect": "Xe tải lớn chiếm nhiều diện tích mặt đường.",
+                "direct": "Xe bê tông lấn sang phần đường của bạn.",
+                "handling": "Giảm tốc và ép xe về phía an toàn (bên phải), tránh đi song song."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe bê tông lấn làn",
+                        "Xe tải vượt",
+                        "Xe tải phanh gấp",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải lớn chiếm nhiều diện tích mặt đường",
+                        "Xe tải đang đỗ",
+                        "Đường phía trước rộng",
+                        "Xe tải bật đèn cảnh báo"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe bê tông lấn sang phần đường của bạn",
+                        "Xe bê tông dừng lại",
+                        "Xe bê tông quay đầu",
+                        "Xe bê tông giảm tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, về phía an toàn bên phải và tránh đi song song",
+                        "Tăng tốc vượt sát xe",
+                        "Đi sang làn đối diện",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Xe con rẽ trái",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/12.mp4",
+            "support": {
+                "indirect": "Xe phía trước bật xi nhan trái.",
+                "direct": "Xe bắt đầu đánh lái qua hướng trái.",
+                "handling": "Giữ khoảng cách lớn hơn, giảm tốc để tránh bị cắt đầu."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con rẽ trái",
+                        "Xe con vượt",
+                        "Xe con từ đường nhánh",
+                        "Xe con phanh gấp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe phía trước bật xi nhan trái",
+                        "Xe phía trước bật xi nhan phải",
+                        "Xe phía trước bật đèn cảnh báo",
+                        "Xe phía trước dừng bên phải"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe bắt đầu đánh lái qua hướng trái",
+                        "Xe tăng tốc thẳng",
+                        "Xe dừng bên đường",
+                        "Xe quay đầu sang phải"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giữ khoảng cách lớn hơn và giảm tốc",
+                        "Tăng tốc vượt bên trái",
+                        "Đi sát xe phía trước",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Xe đạp sang đường",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/13.mp4",
+            "support": {
+                "indirect": "Có người đi xe đạp gần mép đường.",
+                "direct": "Xe đạp bắt đầu đi xuống lòng đường.",
+                "handling": "Giảm tốc sớm, không bấm còi gấp, giữ khoảng cách để họ sang hết."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe đạp sang đường",
+                        "Xe đạp từ đường nhánh",
+                        "Xe máy sang đường",
+                        "Người đi bộ sang đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có người đi xe đạp gần mép đường",
+                        "Xe đạp đang đi giữa làn",
+                        "Có xe tải phía trước",
+                        "Đường phía trước không có xe đạp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đạp bắt đầu đi xuống lòng đường",
+                        "Xe đạp dừng lại",
+                        "Xe đạp tăng tốc cùng chiều",
+                        "Xe đạp quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc sớm, không bấm còi gấp và giữ khoảng cách",
+                        "Tăng tốc vượt qua",
+                        "Bấm còi liên tục",
+                        "Đi sát xe đạp"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Đường hẹp có xe đối diện",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/14.mp4",
+            "support": {
+                "indirect": "Đường hẹp, không đủ cho 2 xe tránh nhau dễ dàng.",
+                "direct": "Xe đối diện tiến vào đoạn hẹp cùng lúc.",
+                "handling": "Giảm tốc về mức an toàn, chủ động nhường nếu cần để tránh xung đột."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Đường hẹp có xe đối diện",
+                        "Xe tải lấn làn",
+                        "Xe con vượt",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Đường hẹp, không đủ cho 2 xe tránh nhau dễ dàng",
+                        "Đường rộng nhiều làn",
+                        "Đường cao tốc",
+                        "Đường hoàn toàn trống"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đối diện tiến vào đoạn hẹp cùng lúc",
+                        "Xe đối diện dừng từ xa",
+                        "Xe phía sau vượt",
+                        "Xe bên phải quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và chủ động nhường nếu cần",
+                        "Tăng tốc để vượt qua trước",
+                        "Đi sát xe đối diện",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+
+        {
+            "id": 15,
+            "title": "Xe tải phanh gấp",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/15.mp4",
+            "support": {
+                "indirect": "Xe tải phía trước ở khoảng cách gần.",
+                "direct": "Đèn phanh bật sáng đột ngột.",
+                "handling": "Đạp phanh dứt khoát nhưng êm, giữ khoảng cách để tránh va chạm liên hoàn."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe tải phanh gấp",
+                        "Xe tải vượt",
+                        "Xe tải lấn làn",
+                        "Xe tải chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải phía trước ở khoảng cách gần",
+                        "Xe tải ở rất xa",
+                        "Đường phía trước không có xe",
+                        "Xe tải đang đỗ bên đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Đèn phanh bật sáng đột ngột",
+                        "Xe tải bật xi nhan trái",
+                        "Xe tải bật đèn pha",
+                        "Xe tải tăng tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Đạp phanh dứt khoát nhưng êm và giữ khoảng cách",
+                        "Tăng tốc vượt xe tải",
+                        "Đánh lái sang làn đối diện",
+                        "Bấm còi và giữ nguyên tốc độ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Xe tải phanh gấp",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/16.mp4",
+            "support": {
+                "indirect": "Xe tải phía trước ở khoảng cách gần.",
+                "direct": "Đèn phanh bật sáng đột ngột.",
+                "handling": "Đạp phanh dứt khoát nhưng êm, giữ khoảng cách để tránh va chạm liên hoàn."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe tải phanh gấp",
+                        "Xe tải vượt",
+                        "Xe tải lấn làn",
+                        "Xe tải chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải phía trước ở khoảng cách gần",
+                        "Xe tải ở rất xa",
+                        "Đường phía trước không có xe",
+                        "Xe tải đang đỗ bên đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Đèn phanh bật sáng đột ngột",
+                        "Xe tải bật xi nhan trái",
+                        "Xe tải bật đèn pha",
+                        "Xe tải tăng tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Đạp phanh dứt khoát nhưng êm và giữ khoảng cách",
+                        "Tăng tốc vượt xe tải",
+                        "Đánh lái sang làn đối diện",
+                        "Bấm còi và giữ nguyên tốc độ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Người đi bộ sau xe tải",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/17.mp4",
+            "support": {
+                "indirect": "Xe tải lớn phía trước che khuất hoàn toàn tầm nhìn bên phải.",
+                "direct": "Người đi bộ bất ngờ bước ra từ sau xe tải.",
+                "handling": "Chủ động rà phanh trước khi vượt qua điểm khuất, hạ tốc độ sâu, giữ khoảng cách an toàn và ưu tiên nhường đường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ sau xe tải",
+                        "Xe tải vượt xe máy",
+                        "Xe tải phanh gấp",
+                        "Xe con đi từ đường nhánh"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải lớn phía trước che khuất hoàn toàn tầm nhìn bên phải",
+                        "Xe tải bật đèn cảnh báo nguy hiểm",
+                        "Có xe máy đi sát bên phải",
+                        "Đường phía trước hoàn toàn thông thoáng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Người đi bộ bất ngờ bước ra từ sau xe tải",
+                        "Xe tải bắt đầu chuyển làn",
+                        "Xe máy vượt lên phía trước",
+                        "Xe phía trước tăng tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Chủ động rà phanh, hạ tốc độ và ưu tiên nhường đường",
+                        "Tăng tốc để vượt nhanh qua xe tải",
+                        "Bấm còi liên tục và giữ nguyên tốc độ",
+                        "Đi sát xe tải để tránh người đi bộ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Người đi bộ qua dải phân cách",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/18.mp4",
+            "support": {
+                "indirect": "Khu vực có dải phân cách, thường có người băng qua không đúng nơi.",
+                "direct": "Người đi bộ bước xuống phần đường xe chạy.",
+                "handling": "Giảm tốc từ sớm, quan sát hướng di chuyển của người đi bộ và dừng lại nếu họ tiếp tục sang đường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ qua dải phân cách",
+                        "Người đi bộ sau xe tải",
+                        "Xe máy chuyển làn",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Khu vực có dải phân cách, thường có người băng qua không đúng nơi",
+                        "Có xe tải đang đỗ",
+                        "Có đèn giao thông phía trước",
+                        "Đường không có người đi bộ"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Người đi bộ bước xuống phần đường xe chạy",
+                        "Xe phía trước tăng tốc",
+                        "Xe máy bật xi nhan",
+                        "Xe buýt rời điểm dừng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và dừng lại nếu người đi bộ tiếp tục sang đường",
+                        "Tăng tốc để vượt qua trước",
+                        "Bấm còi liên tục",
+                        "Đi sát dải phân cách"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Xe buýt dừng phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/19.mp4",
+            "support": {
+                "indirect": "Xe buýt đang dừng tại điểm đón trả khách.",
+                "direct": "Xe phía trước phanh lại hoặc người có thể bước ra từ đầu xe buýt.",
+                "handling": "Giữ khoảng cách rộng hơn bình thường, giảm tốc và quan sát hai bên đầu xe buýt để phòng người đi bộ."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe buýt dừng phía trước",
+                        "Xe buýt vượt",
+                        "Xe tải phanh gấp",
+                        "Xe con rẽ trái"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe buýt đang dừng tại điểm đón trả khách",
+                        "Xe buýt đang chạy tốc độ cao",
+                        "Xe buýt bật đèn pha",
+                        "Đường phía trước không có xe"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe phía trước phanh lại hoặc người có thể bước ra từ đầu xe buýt",
+                        "Xe buýt tăng tốc",
+                        "Xe máy vượt bên trái",
+                        "Xe phía sau bật đèn pha"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, giữ khoảng cách và quan sát hai bên đầu xe buýt",
+                        "Tăng tốc vượt xe buýt",
+                        "Đi sát xe buýt",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Xe con từ đường nhánh đi ra",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/20.mp4",
+            "support": {
+                "indirect": "Xuất hiện giao lộ hoặc đường nhánh nhỏ bên phải.",
+                "direct": "Đầu xe con nhô ra, có xu hướng nhập vào đường chính.",
+                "handling": "Nhả ga sớm, rà phanh nhẹ và sẵn sàng dừng nếu xe kia tiếp tục tiến ra."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con từ đường nhánh đi ra",
+                        "Xe con rẽ trái",
+                        "Xe máy chuyển làn",
+                        "Xe tải lấn làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xuất hiện giao lộ hoặc đường nhánh nhỏ bên phải",
+                        "Có xe buýt phía trước",
+                        "Có người đi bộ trên vỉa hè",
+                        "Đường đang vào cao tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Đầu xe con nhô ra, có xu hướng nhập vào đường chính",
+                        "Xe con bật đèn pha",
+                        "Xe con dừng hẳn",
+                        "Xe con quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Nhả ga, rà phanh và sẵn sàng dừng",
+                        "Tăng tốc vượt qua",
+                        "Đi sát mép phải",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Xe máy chuyển làn",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/21.mp4",
+            "support": {
+                "indirect": "Xe máy đi sát vạch phân làn, không giữ hướng ổn định.",
+                "direct": "Xe máy bất ngờ đánh lái sang làn của bạn.",
+                "handling": "Chủ động giảm tốc, giữ khoảng cách lệch sang phía an toàn để tránh va chạm."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe máy chuyển làn",
+                        "Xe máy vượt",
+                        "Xe máy quay đầu",
+                        "Xe máy dừng bên đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe máy đi sát vạch phân làn, không giữ hướng ổn định",
+                        "Xe máy đang dừng",
+                        "Xe máy bật đèn cảnh báo",
+                        "Xe máy đi sát lề phải ổn định"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe máy bất ngờ đánh lái sang làn của bạn",
+                        "Xe máy giảm tốc",
+                        "Xe máy bật đèn pha",
+                        "Xe máy dừng lại"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và giữ khoảng cách lệch sang phía an toàn",
+                        "Tăng tốc vượt xe máy",
+                        "Đi sát xe máy",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Xe buýt vượt",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/22.mp4",
+            "support": {
+                "indirect": "Xe buýt phía sau tăng tốc, áp sát.",
+                "direct": "Xe buýt lấn sang làn của bạn để vượt.",
+                "handling": "Giảm tốc nhẹ để tạo khoảng trống, giữ hướng lái ổn định và quan sát gương."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe buýt vượt",
+                        "Xe buýt dừng",
+                        "Xe tải vượt",
+                        "Xe con vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe buýt phía sau tăng tốc, áp sát",
+                        "Xe buýt đang đỗ",
+                        "Xe buýt bật đèn cảnh báo",
+                        "Xe buýt đi ngược chiều"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe buýt lấn sang làn của bạn để vượt",
+                        "Xe buýt dừng lại",
+                        "Xe buýt giảm tốc",
+                        "Xe buýt bật đèn pha"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc nhẹ, tạo khoảng trống và giữ hướng lái ổn định",
+                        "Tăng tốc để ngăn xe buýt vượt",
+                        "Đánh lái sang trái",
+                        "Phanh gấp ngay lập tức"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Người đi bộ phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/23.mp4",
+            "support": {
+                "indirect": "Khu vực đông dân cư, gần vạch qua đường.",
+                "direct": "Xe phía trước phanh lại hoặc có người chuẩn bị sang đường.",
+                "handling": "Hạ tốc độ, giữ khoảng cách và chuẩn bị dừng hẳn nếu người đi bộ bước ra."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Người đi bộ phía trước",
+                        "Người đi bộ sau xe tải",
+                        "Người đi bộ qua dải phân cách",
+                        "Xe máy chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Khu vực đông dân cư, gần vạch qua đường",
+                        "Đường cao tốc",
+                        "Đường không có người",
+                        "Có xe tải phía sau"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe phía trước phanh lại hoặc có người chuẩn bị sang đường",
+                        "Xe phía trước tăng tốc",
+                        "Xe buýt rời điểm dừng",
+                        "Xe máy chuyển làn"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Hạ tốc độ, giữ khoảng cách và chuẩn bị dừng",
+                        "Tăng tốc vượt xe phía trước",
+                        "Bấm còi liên tục",
+                        "Đi sát người đi bộ"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Xe đạp từ đường nhánh",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/24.mp4",
+            "support": {
+                "indirect": "Có lối nhỏ hoặc ngõ khuất bên đường.",
+                "direct": "Xe đạp bất ngờ lao ra từ bên hông.",
+                "handling": "Quan sát hai bên liên tục, giảm tốc sâu và giữ khoảng cách phòng va chạm ngang."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe đạp từ đường nhánh",
+                        "Xe đạp sang đường",
+                        "Xe máy từ đường nhánh",
+                        "Xe con từ đường nhánh"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có lối nhỏ hoặc ngõ khuất bên đường",
+                        "Có dải phân cách giữa đường",
+                        "Có xe buýt đang dừng",
+                        "Đường hoàn toàn thẳng và thoáng"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đạp bất ngờ lao ra từ bên hông",
+                        "Xe đạp dừng bên đường",
+                        "Xe đạp quay đầu",
+                        "Xe đạp tăng tốc phía trước"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Quan sát hai bên, giảm tốc sâu và giữ khoảng cách",
+                        "Tăng tốc vượt qua",
+                        "Bấm còi liên tục",
+                        "Đi sát xe đạp"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Xe con vượt phía trước",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/25.mp4",
+            "support": {
+                "indirect": "Xe phía trước chạy không ổn định, có xu hướng tăng tốc.",
+                "direct": "Xe đó lấn sang làn đối diện để vượt.",
+                "handling": "Không tăng tốc theo, giảm ga và giữ khoảng cách để tránh tình huống dồn xe."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con vượt phía trước",
+                        "Xe con rẽ trái",
+                        "Xe con từ đường nhánh",
+                        "Xe con phanh gấp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe phía trước chạy không ổn định, có xu hướng tăng tốc",
+                        "Xe phía trước dừng hẳn",
+                        "Xe phía trước bật đèn cảnh báo",
+                        "Xe phía trước đi sát lề"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đó lấn sang làn đối diện để vượt",
+                        "Xe đó giảm tốc",
+                        "Xe đó dừng bên đường",
+                        "Xe đó quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Không tăng tốc theo, giảm ga và giữ khoảng cách",
+                        "Tăng tốc vượt theo",
+                        "Đi sát xe đó",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "title": "Xe con bên trái đi ra",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/26.mp4",
+            "support": {
+                "indirect": "Có giao cắt bên trái nhưng tầm nhìn hạn chế.",
+                "direct": "Xe con tiến ra và có thể cắt ngang đầu xe bạn.",
+                "handling": "Giảm tốc chủ động, giữ chân phanh và sẵn sàng dừng nếu xe kia không nhường."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con bên trái đi ra",
+                        "Xe con bên phải đi ra",
+                        "Xe con rẽ trái",
+                        "Xe con vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có giao cắt bên trái nhưng tầm nhìn hạn chế",
+                        "Có xe buýt đang dừng",
+                        "Có dải phân cách",
+                        "Đường phía trước không có giao cắt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe con tiến ra và có thể cắt ngang đầu xe bạn",
+                        "Xe con dừng hẳn",
+                        "Xe con bật đèn pha",
+                        "Xe con đi ngược chiều"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, giữ chân phanh và sẵn sàng dừng",
+                        "Tăng tốc qua giao lộ",
+                        "Đánh lái sang trái",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "title": "Xe bê tông lấn làn",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/27.mp4",
+            "support": {
+                "indirect": "Xe tải lớn chiếm nhiều diện tích mặt đường.",
+                "direct": "Xe bê tông lấn sang phần đường của bạn.",
+                "handling": "Giảm tốc và ép xe về phía an toàn (bên phải), tránh đi song song."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe bê tông lấn làn",
+                        "Xe tải vượt",
+                        "Xe tải phanh gấp",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe tải lớn chiếm nhiều diện tích mặt đường",
+                        "Xe tải đang đỗ",
+                        "Đường phía trước rộng",
+                        "Xe tải bật đèn cảnh báo"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe bê tông lấn sang phần đường của bạn",
+                        "Xe bê tông dừng lại",
+                        "Xe bê tông quay đầu",
+                        "Xe bê tông giảm tốc"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc, về phía an toàn bên phải và tránh đi song song",
+                        "Tăng tốc vượt sát xe",
+                        "Đi sang làn đối diện",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "title": "Xe con rẽ trái",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/28.mp4",
+            "support": {
+                "indirect": "Xe phía trước bật xi nhan trái.",
+                "direct": "Xe bắt đầu đánh lái qua hướng trái.",
+                "handling": "Giữ khoảng cách lớn hơn, giảm tốc để tránh bị cắt đầu."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe con rẽ trái",
+                        "Xe con vượt",
+                        "Xe con từ đường nhánh",
+                        "Xe con phanh gấp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Xe phía trước bật xi nhan trái",
+                        "Xe phía trước bật xi nhan phải",
+                        "Xe phía trước bật đèn cảnh báo",
+                        "Xe phía trước dừng bên phải"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe bắt đầu đánh lái qua hướng trái",
+                        "Xe tăng tốc thẳng",
+                        "Xe dừng bên đường",
+                        "Xe quay đầu sang phải"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giữ khoảng cách lớn hơn và giảm tốc",
+                        "Tăng tốc vượt bên trái",
+                        "Đi sát xe phía trước",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "title": "Xe đạp sang đường",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/29.mp4",
+            "support": {
+                "indirect": "Có người đi xe đạp gần mép đường.",
+                "direct": "Xe đạp bắt đầu đi xuống lòng đường.",
+                "handling": "Giảm tốc sớm, không bấm còi gấp, giữ khoảng cách để họ sang hết."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Xe đạp sang đường",
+                        "Xe đạp từ đường nhánh",
+                        "Xe máy sang đường",
+                        "Người đi bộ sang đường"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Có người đi xe đạp gần mép đường",
+                        "Xe đạp đang đi giữa làn",
+                        "Có xe tải phía trước",
+                        "Đường phía trước không có xe đạp"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đạp bắt đầu đi xuống lòng đường",
+                        "Xe đạp dừng lại",
+                        "Xe đạp tăng tốc cùng chiều",
+                        "Xe đạp quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc sớm, không bấm còi gấp và giữ khoảng cách",
+                        "Tăng tốc vượt qua",
+                        "Bấm còi liên tục",
+                        "Đi sát xe đạp"
+                    ],
+                    "answer": 0
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "title": "Đường hẹp có xe đối diện",
+            "categoryName": "Giao thông trên đường đô thị",
+            "video": "videos/30.mp4",
+            "support": {
+                "indirect": "Đường hẹp, không đủ cho 2 xe tránh nhau dễ dàng.",
+                "direct": "Xe đối diện tiến vào đoạn hẹp cùng lúc.",
+                "handling": "Giảm tốc về mức an toàn, chủ động nhường nếu cần để tránh xung đột."
+            },
+            "questions": [
+                {
+                    "title": "Tên tình huống",
+                    "options": [
+                        "Đường hẹp có xe đối diện",
+                        "Xe tải lấn làn",
+                        "Xe con vượt",
+                        "Xe buýt vượt"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết gián tiếp",
+                    "options": [
+                        "Đường hẹp, không đủ cho 2 xe tránh nhau dễ dàng",
+                        "Đường rộng nhiều làn",
+                        "Đường cao tốc",
+                        "Đường hoàn toàn trống"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Dấu hiệu nhận biết trực tiếp",
+                    "options": [
+                        "Xe đối diện tiến vào đoạn hẹp cùng lúc",
+                        "Xe đối diện dừng từ xa",
+                        "Xe phía sau vượt",
+                        "Xe bên phải quay đầu"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "title": "Cách xử lý",
+                    "options": [
+                        "Giảm tốc và chủ động nhường nếu cần",
+                        "Tăng tốc để vượt qua trước",
+                        "Đi sát xe đối diện",
+                        "Bấm còi liên tục"
+                    ],
+                    "answer": 0
+                }
+            ]
+        }
+    ]
+}
