@@ -9,7 +9,10 @@ const state = {
     currentSituationId: null,
     currentExamId: null,
     answers: {},
-    submitted: false
+    submitted: false,
+
+    remainingSeconds: 15 * 60,
+    timerId: null
 };
 
 const SCORE_PER_QUESTION = 0.25;
@@ -114,6 +117,9 @@ function selectExam(examId) {
     state.currentExamId = examId;
     state.answers = {};
     state.submitted = false;
+
+    startExamTimer();
+
     currentExamSituations = exam.situations
         .map(id => situations.find(situation => situation.id === id))
         .filter(Boolean);
@@ -185,6 +191,56 @@ function setMode(mode) {
     renderSituation();
 }
 
+/* =========================
+   EXAM TIMER
+========================= */
+
+function startExamTimer() {
+    clearInterval(state.timerId);
+
+    state.remainingSeconds = 15 * 60;
+
+    updateExamTimer();
+
+    state.timerId = setInterval(() => {
+        if (state.submitted) {
+            clearInterval(state.timerId);
+            return;
+        }
+
+        state.remainingSeconds--;
+
+        updateExamTimer();
+
+        if (state.remainingSeconds <= 0) {
+            clearInterval(state.timerId);
+            state.remainingSeconds = 0;
+
+            // Hết giờ -> tự động nộp bài
+            calculateResult();
+        }
+    }, 1000);
+}
+
+
+function updateExamTimer() {
+    const timer = document.getElementById("examTimer");
+
+    if (!timer) {
+        return;
+    }
+
+    const minutes = Math.floor(state.remainingSeconds / 60);
+    const seconds = state.remainingSeconds % 60;
+
+    timer.textContent =
+        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+    timer.classList.toggle(
+        "warning",
+        state.remainingSeconds <= 60
+    );
+}
 
 /* =========================
    CURRENT SITUATION
@@ -808,7 +864,14 @@ function confirmSubmit() {
 
 function calculateResult() {
 
+    if (state.submitted) {
+        return;
+    }
+
+    clearInterval(state.timerId);
+
     state.submitted = true;
+    
     renderSituation();
 
     const totalQuestions =
